@@ -1,0 +1,22 @@
+.case{
+    margin-top: 50px;
+}
+
+.case__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.case__desc {
+    font-family: "MM";
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.case__img{
+    width: 100%;
+}
+

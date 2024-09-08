@@ -1,0 +1,39 @@
+.header {
+    background: #282828;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.header__nav-list-item {
+    font-family: "MB";
+    font-weight: 700;
+    color: #fff;
+}
+
+.header__nav-list-item a {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.header__nav-list-item a:hover {
+    color: #696969;
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+}
+

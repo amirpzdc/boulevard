@@ -1,0 +1,57 @@
+.cards {
+    margin-top: 80px;
+}
+
+.cards__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cards__list-item {
+    background: #fff;
+    padding: 15px 64px;
+    border-radius: 6px;
+    text-align: center;
+    height: 312px;
+}
+
+.cards__list-item-title {
+    font-family: "MB";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cards__list-item-price {
+    font-family: "MM";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.cards__list-item-img {
+    margin: 10px 0;
+}
+
+.cards__list-item-btn {
+    background: #151515;
+    font-family: "MB";
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 7px 57px;
+    transition: 0.3s;
+}
+
+.cards__list-item-btn:hover{
+    background: #282828;
+    color:#000;
+}
+

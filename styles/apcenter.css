@@ -1,0 +1,49 @@
+.apcenter {
+    margin-top: 50px;
+}
+
+.apcenter__wrap {
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+
+.apcenter__desc {
+    font-family: "MB";
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.left{
+    text-align: right;
+}
+
+.line {
+       position: relative;
+       display: inline-block;
+       right: 24px;
+     }
+     
+     .line:before{ 
+       content: " ";
+       background: #C4C4C4;
+       width: 61px;
+       height: 1px;
+       top: 25px;
+       position: absolute;
+     }
+   .line2 {
+       position: relative;
+       display: inline-block;
+       right: 50px;
+     }
+     
+     .line2:before{ 
+       content: " ";
+       background: #C4C4C4;
+       width: 61px;
+       height: 1px;
+       top: 25px;
+       position: absolute;
+     }

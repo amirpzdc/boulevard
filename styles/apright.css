@@ -1,0 +1,27 @@
+.apright {
+    margin-top: 30px;
+}
+
+.apright__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.apright__desc {
+    font-family: "MM";
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.apright__img {
+    width: 100%;
+    height: 100%;
+}
+.apright__img img {
+    width: 100%;
+    height: 100%;
+}
+

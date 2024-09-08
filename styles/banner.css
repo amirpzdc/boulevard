@@ -1,0 +1,40 @@
+.banner {
+    background: url(../img/banner.png) no-repeat center bottom / cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.banner__wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.banner__title {
+    font-family: "PR";
+    font-size: 100px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.banner__btn {
+    background: #fff;
+    font-family: "MM";
+    font-size: 20px;
+    font-weight: 500;
+    padding: 14px;
+    border-radius: 10px;
+    outline: none;
+    border-bottom: none;
+}
+
+.banner__btn img {
+    margin-left: 11px;
+}
+
+
